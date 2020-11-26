@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Stone Management</title>
+	<link rel="shortcut icon" href="images/stone-fave.ico">
+	<link rel="stylesheet" href="index.css" type="text/css">
+	<script src="https://kit.fontawesome.com/0e83afa75c.js" crossorigin="anonymous"></script>
+	<script async src="https://cse.google.com/cse.js?cx=009308595172252977634:u4sops8os1a"></script>
+	<script src="https://kit.fontawesome.com/0e83afa75c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<script>
+		function handleNav() {
+			const nav = document.getElementById("nav");
+			(nav.classList.contains("show") ? nav.className = "hidden" : nav.className = "show")
+		}
+
+	</script>
+
+	<header>
+		<a class="head-item" id="logo" href="#"><img id="logo" src="images/New Stone Logo.png" alt="stone-logo" width="600"
+				height="400" /></a>
+		<h1 class="head-item head-item1 sub-head">SECURITY</h1>
+		<h1 class="head-item head-item2 sub-head">CLEANING</h1>
+		<h1 class="head-item head-item3 sub-head">MAINTENANCE</h1>
+		<a href="#nav-bar"><i id="chevron" class="fas fa-chevron-circle-down"></i></a>
+	</header>
+	<nav id="nav-bar" class="flex-nav ">
+		<a class="toggleNav" onclick="handleNav()">☰ Menu</a>
+		<ul class="hidden" id="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li class="social">
+				<a href="http://twitter.com"><i class="fab fa-twitter"></i></a>
+			</li>
+
+		</ul>
+	</nav>
+
+
+
+	<main>
+		<div class="about">
+			<div class="title">
+				<h1>Welcome to Stone Management Group<h1>
+			</div>
+			<img src="images/albertdock.jpg" alt="albertdock" />
+			<p>Stone Management Group Limited is a security company founded in 1998 and located in Liverpool. The business
+				provides security officers, CCTV Surveillance and Key Holding services to, principally, commercial, business
+				and
+				residential buildings, retail and business parks, event venues, construction sites and other clients. The
+				business
+				targets building management companies and large retail stores in order to establish a strong base of clients
+				in
+				the
+				North West of England</p>
+			<p>Our portfolio is expansive throughout the North of England, with sites ranging from residential and
+				commercial
+				office blocks to freight depots, schools and shopping centres.</p>
+			<p>Each of our sites benefits from SMG's professional and personal service. We pride ourselves on providing an
+				unrivalled level of customer service and the ability to maintain the highest of standards, with a level of
+				consistency and care rarely seen in the industry.</p>
+			<p>Whilst our range of services are market leaders in terms of quality, it is when integrated into a client's
+				building management plan that our impeccably high Stone Standard can be fully appreciated and of true
+				benefit to
+				our clients.</p>
+
+		</div>
+	</main>
+	<footer>
+		<span class="sia1"><img src="images/SIA.png" alt="sia-badge" /><strong>Stone Management Group holds Approved
+				Contractor Status for the provision of Security Guarding and Key Holding services and Public Space
+				Surveillance
+				(CCTV) services.</strong></span>
+		<!-- <img src="images/Stone Logo.jpg" height="100px" width="200px" alt="stone-logo" /> -->
+		<img src="images/acreds.png" alt="sia-accred">
+		<p></p>
+	</footer>
+
+</body>
+
+</html>

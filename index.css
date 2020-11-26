@@ -1,0 +1,130 @@
+html {
+	scroll-behavior: smooth;
+}
+html,body{
+	overflow-x: hidden;
+	margin:0; padding:0;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+	margin-top: 0;
+	height: 100vh;
+	width: 100vw;
+	background: url('./images/peter-mason-docks.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.sub-head {
+	color: white;
+	font-size: 6vw;
+}
+.head-item1 {
+animation: 2s slide-right;
+
+}
+.head-item2 {
+	animation: 3s slide-right;
+}
+.head-item3 {
+	animation: 4s slide-right;
+}
+
+#chevron {
+	color: white;
+	bottom: 0;
+	height: 20px;
+}
+
+@keyframes slide-right {
+	from {
+    margin-left: -500px;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+.flex-nav {
+	position: sticky;
+	top: 0;
+	margin-bottom: 50px;
+
+}
+
+.flex-nav ul {
+	display: flex;
+	flex-direction: row;
+}
+.toggleNav {
+	cursor: pointer;
+}
+#logo {
+height: 200px;
+width: 300px;
+}
+
+.hidden {
+	display: none;
+}
+
+.show {
+animation: 2s drop-down;
+display: block;
+}
+
+@keyframes drop-down {
+from {
+    margin-left: -110%;
+  }
+
+  to {
+    margin-left: 10px;
+  }
+}
+
+.head-item {
+	padding: 20px;
+}
+
+@media screen and (min-width: 400px) {
+	header {
+		display: flex;
+		flex-direction: column;
+		align-items: baseline;
+justify-content: space-between;
+align-items: center;
+	}
+	.head-item {
+		padding: 15px;
+		font-size: 20px;
+	}
+	#chevron {
+		font-size: 15px;
+	color: white;
+	bottom: 0;
+}
+} 
+
+footer {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	align-items: center;
+}
+
+footer .sia1 {
+	width: 100px;
+	font-size: 2vw;
+}
+
+@media screen and (min-width: 600px) {
+
+}
